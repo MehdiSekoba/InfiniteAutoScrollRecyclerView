@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InfiniteAutoScrollRecyclerView">
+        <attr name="scrollOrientation" format="integer">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="scrollLayoutType" format="integer">
+            <enum name="list" value="1" />
+            <enum name="grid" value="2" />
+        </attr>
+        <attr name="itemMargin" format="dimension" />
+        <attr name="scrollSpeed" format="float" />
+    </declare-styleable>
+</resources>
